@@ -4,4 +4,4 @@
 // and the frontend runs on port 5173 (common for Vite).
 // Use 'http://localhost:3000' for local development.
 
-export const API_BASE_URL = 'http://localhost:3000';
+export const API_BASE_URL = 'http://localhost:3001/api'; // (Current value)
