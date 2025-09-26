@@ -1,0 +1,19 @@
+# Dependencies
+/node_modules
+
+# Build Output
+# The folder created when you run 'npm run build' (Vite's default)
+/dist
+/build
+
+# Environment Variables
+# NEVER commit API keys or secrets
+.env
+.env.local
+.env.*.local
+
+# IDE/OS Files (Common to ignore)
+.DS_Store          # macOS files
+npm-debug.log* # npm logs
+yarn-error.log* # Yarn logs
+.vscode/           # VS Code settings (if you don't share them globally)

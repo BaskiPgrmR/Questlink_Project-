@@ -1,0 +1,36 @@
+# Dependencies and Builds
+/node_modules
+
+# Environment Variables and Credentials
+# This is CRITICAL. NEVER commit database passwords or keys.
+.env
+.env.local
+.env.*.local
+config/firebase-config.js 
+# Add common temporary/cache files
+.nodemon-cache/
+.npmrc # If it contains auth tokens
+
+# Logs and Runtime Artifacts
+/logs
+npm-debug.log*
+yarn-debug.log* # If you use Yarn sometimes
+*.log
+
+# Database Files (If using SQLite or other local files)
+*.sqlite
+*.db
+
+# Uploads or Generated Content
+/uploads
+/public/images/uploaded 
+
+# Compiled JavaScript (if using TypeScript or Babel and compiling to JS)
+/dist
+/build
+# Source Maps (often generated with compiled JS)
+*.map
+
+# IDE/OS Files (If not handled by a root .gitignore)
+.DS_Store
+.vscode
